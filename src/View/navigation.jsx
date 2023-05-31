@@ -1,5 +1,5 @@
 import '../css/Navigation.css';
-import logo from '../assets/img/Sowan Caffe Logo.svg';
+import logo from '../assets/img/logo1.png';
 import React from 'react';
 import BtnMenu from '../Controller/NavbarBtn.jsx';
 // import BtnReservation from '../Controller/ReservationBtn.jsx';
