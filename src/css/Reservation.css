@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lato:wght@900&display=swap');
+
 *{
   font-family: 'Cabin', sans-serif;
   letter-spacing: 2px;
+  box-sizing: border-box;
 }
 .container-bx-reservation{
-    position: fixed;
+    position: absolute;
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.884);
-    align-content: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    padding: 80px 25% 0px 25%;
-    transition: all .50s ease;
+    /* justify-content: space-between; */
+    right: 0;
+    top: 0;
+    transition: 0.5s;
+}
+.container-bx-reservation.close{
+  visibility: hidden;
+  transition: 1s;
 }
 .container-bx-reservation .bx-reservation{
     width: 800px;
@@ -21,216 +28,379 @@
     background-color: #1B2430;
     border-radius: 10px;
     display : flex;
-    align-content: center;
+    text-align: center;
+    justify-content: center;
+    margin: 80px 25% 0px 25%;
     /* margin-top: 80px;
     margin-left: 290px; */
-   
 }
 .Booking-text{
     color: white;
-    margin: 20px 17%;
+    margin: 30px ;
     font-size: 22px;
     display: flex;
-    position: fixed;
+    position: absolute;
+    
 }
 .btn-icon-close{
     /* width: 30px;
     height: 30px; */
     display: flex;
-    position: fixed;
-    margin: 20px 0% 0% 0%;
-    padding: 0px 0% 0% 46%;
+    position: relative;
+    top: 20px;
+    left: 650px;
 }
 .btn-icon-close .icon-close{
     width: 25px;
     height: 25px;
 }
-
-.form-horizontal {
-  /*float: left;*/
-  max-width: 400px;
-  font-weight: 200;
+.heading-date{
+  display: flex;
+  margin: 90px 0% 0% 0%;
+  padding: 0 180px 0 180px;
+  gap: 320px;
 }
-.form-group{
-    padding-top: 10px;
+.opening-hours{
+  display: flex;
+  justify-content: center;
 }
-.form-control, 
-textarea {
-  max-width: 400px;
-  background-color: #000;
-  color: #fff;
-  letter-spacing: 1px;
+.heading{
+  color: #FFFFFF;
+  font-size: 12px;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #C59D5F;
+  display: flex;
+  position: absolute;
+  
 }
-
-/* K */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #000;
-  padding-bottom: 100px;
+.day-text{
+  margin: 15px ;
+  position: absolute;
+  color: #C59D5F;
+  font-size: 10px;
 }
-
-#contact {
-  width: 100%;
-  height: 100%;
+.time-text{
+  margin: 30px ;
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 10px;
 }
-
-.section-header {
-  text-align: center;
-  margin: 0 auto;
-  padding: 40px 0;
-  font: 300 60px 'Oswald', sans-serif;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-}
-
-.contact-wrapper {
+ .caffe-hours{
+  display: flex;
+  justify-content: center;
+ }
+ .Input-Reservation{
+  display: flex;
+  position: absolute;
+  margin: 170px 20px;
+ }
+ .column-input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+ .row-input{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 20px;
+  gap: 2px;
+ }
+ .Input-Bx-Name{
   position: relative;
-  max-width: 840px;
-}
-
-/* Left contact page */
-.form-horizontal {
-  /*float: left;*/
-  max-width: 400px;
-  font-weight: 400;
-}
-
-.form-control, 
-textarea {
-  max-width: 400px;
-  background-color: #000;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-.send-button {
-  margin-top: 15px;
-  height: 34px;
-  width: 400px;
-  overflow: hidden;
-  transition: all .2s ease-in-out;
-}
-
-.alt-send-button {
-  width: 400px;
-  height: 34px;
-  transition: all .2s ease-in-out;
-}
-
-.send-text {
-  display: block;
-  margin-top: 10px;
-  font: 700 12px 'Lato', sans-serif;
+ }
+ .Input-Bx-Email{
+  position: relative;
+  margin-left: 20px;
+ }
+ .Input-Bx-Name input{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 1px;
+  background: transparent;
+  width: 200px;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Email input{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 1px;
+  background: transparent;
+  width: 200px;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Name span{
+  position: absolute;
+  padding: 10px;
+  margin: 0px -195px;
+  pointer-events: none;
+  color:  #FFFFFF;
+  font-size: 12px;
+  text-transform: uppercase;
+ transition: 0.5s;
+ }
+ .Input-Bx-Email span{
+  position: absolute;
+  padding: 10px;
+  margin: 0px -195px;
+  pointer-events: none;
+  font-size: 12px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  transition: 0.5s;
+ }
+ .Input-Bx-Name input:valid ~ span,
+ .Input-Bx-Name input:focus ~ span
+ {
+  color: #C59D5F;
+  transform: translateX(5px) translateY(-6px);
+  font-size: 10px;
+  padding: 0 10px;
+  background: #1B2430;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Name input:valid ,
+ .Input-Bx-Name input:focus 
+ {
+  border: 1px solid #C59D5F;
+ }
+ .Input-Bx-Email input:valid ~ span,
+ .Input-Bx-Email input:focus ~ span
+ {
+  color: #C59D5F;
+  transform: translateX(5px) translateY(-6px);
+  font-size: 10px;
+  padding: 0 10px;
+  background: #1B2430;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Email input:valid ,
+ .Input-Bx-Email input:focus 
+ {
+  border: 1px solid #C59D5F;
+ }
+ .Input-Bx-Phone{
+  position: relative;
+  margin-left: 20px;
+ }
+ .Input-Bx-Phone input{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 1px;
+  background: transparent;
+  width: 200px;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Phone span{
+  position: absolute;
+  padding: 10px;
+  margin: 0px -195px;
+  pointer-events: none;
+  font-size: 12px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  transition: 0.5s;
+ }
+ .Input-Bx-Phone input:valid ~ span,
+ .Input-Bx-Phone input:focus ~ span
+ {
+  color: #C59D5F;
+  transform: translateX(5px) translateY(-6px);
+  font-size: 10px;
+  padding: 0 10px;
+  background: #1B2430;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Phone input:valid ,
+ .Input-Bx-Phone input:focus 
+ {
+  border: 1px solid #C59D5F;
+ }
+ .Input-Bx-Date{
+  position: relative;
+  
+ }
+ .Input-Bx-Date input{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 1px;
+  background: transparent;
+  width: 200px;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Date span{
+  position: absolute;
+  padding: 0px 10px;
+  margin: 0px -195px;
+  pointer-events: none;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transform: translateX(5px) translateY(-6px);
+  font-size: 10px;
+  background: #1B2430;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Date input:valid ,
+ .Input-Bx-Date input:focus 
+ {
+  border: 1px solid #C59D5F;
+ }
+ .Input-Bx-Date input:valid ~ span,
+ .Input-Bx-Date input:focus ~ span
+ {
+  color: #C59D5F;
+ }
+ .Input-Bx-Time{
+  position: relative;
+  margin-left: 20px;
+ }
+ .Input-Bx-Time input{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 1px;
+  background: transparent;
+  width: 200px;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Time span{
+  position: absolute;
+  padding: 0px 10px;
+  margin: 0px -195px;
+  pointer-events: none;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transform: translateX(5px) translateY(-6px);
+  font-size: 10px;
+  background: #1B2430;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Time input:valid ,
+ .Input-Bx-Time input:focus 
+ {
+  border: 1px solid #C59D5F;
+ }
+ .Input-Bx-Time input:valid ~ span,
+ .Input-Bx-Time input:focus ~ span
+ {
+  color: #C59D5F;
+ }
+ .Input-Bx-Sheet{
+  position: relative;
+  margin-left: 20px;
+ }
+ .Input-Bx-Sheet input{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 1px;
+  background: transparent;
+  width: 200px;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Sheet span{
+  position: absolute;
+  padding: 10px;
+  margin: 0px -195px;
+  pointer-events: none;
+  font-size: 12px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  transition: 0.5s;
+ }
+ .Input-Bx-Sheet input:valid ,
+ .Input-Bx-Sheet input:focus 
+ {
+  border: 1px solid #C59D5F;
+ }
+ .Input-Bx-Sheet input:valid ~ span,
+ .Input-Bx-Sheet input:focus ~ span
+ {
+  color: #C59D5F;
+  transform: translateX(5px) translateY(-6px);
+  font-size: 10px;
+  padding: 0 10px;
+  background: #1B2430;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Description{
+  position: relative;
+ }
+ .Input-Bx-Description textarea{
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  outline: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  border-radius: 1px;
+  background: transparent;
+  width: 645px;
+  height: 120px;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  box-sizing: border-box;
+  resize: none;
+ }
+ .Input-Bx-Description span{
+  position: absolute;
+  padding: 10px;
+  margin: 0px -635px;
+  pointer-events: none;
+  font-size: 12px;
+  color:#FFFFFF;
+  text-transform: uppercase;
+  transition: 0.5s;
+ }
+ .Input-Bx-Description textarea:valid ~ span,
+ .Input-Bx-Description textarea:focus ~ span
+ {
+  color: #C59D5F;
+  transform: translateX(5px) translateY(-6px);
+  font-size: 10px;
+  padding: 0 10px;
+  background: #1B2430;
+  letter-spacing: 0.2em;
+ }
+ .Input-Bx-Description textarea:valid ,
+ .Input-Bx-Description textarea:focus 
+ {
+  border: 1px solid #C59D5F;
+ }
+ .Submit-bx{
+  background-color: #C59D5F;
+  border: 0;
+  width: 140px;
+  height: 40px;
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
   letter-spacing: 2px;
-}
-
-.alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
-}
-
-/* Begin Right Contact Page */
-.direct-contact-container {
-  max-width: 400px;
-}
-
-/* Location, Phone, Email Section */
-.contact-list {
-  list-style-type: none;
-  margin-left: -30px;
-  padding-right: 20px;
-}
-
-.list-item {
-  line-height: 4;
-  color: #aaa;
-}
-
-.contact-text {
-  font: 300 18px 'Lato', sans-serif;
-  letter-spacing: 1.9px;
-  color: #bbb;
-}
-
-.place {
-  margin-left: 62px;
-}
-
-.phone {
-  margin-left: 56px;
-}
-
-.gmail {
-  margin-left: 53px;
-}
-
-.contact-text a {
-  color: #bbb;
-  text-decoration: none;
-  transition-duration: 0.2s;
-}
-
-.contact-text a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-
-/* Social Media Icons */
-
-
-hr {
-  border-color: rgba(255,255,255,.6);
-}
-
-/* Begin Media Queries*/
-@media screen and (max-width: 850px) {
-  .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  .direct-contact-container, .form-horizontal {
-    margin: 0 auto;
-  }  
-  
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 300px;
-  }    
-  
-}
-
-@media screen and (max-width: 569px) {
-
-  .direct-contact-container, .form-wrapper {
-    float: none;
-    margin: 0 auto;
-  }  
-  .form-control, textarea {
-    
-    margin: 0 auto;
-  }
- 
-  
-  .name, .email, textarea {
-    width: 280px;
-  } 
-  
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 280px;
-  }  
-  
-}
-
-@media screen and (max-width: 410px) {
-  .send-button {
-    width: 99%;
-  }
+ }
+ ::-webkit-calendar-picker-indicator{
+  background-color: #FFFFFF;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
 }
