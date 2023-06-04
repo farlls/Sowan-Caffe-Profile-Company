@@ -12,9 +12,9 @@ function Page1() {
                 <p>read more...</p>
             </div>
             <div className="container-card-menu">
-                <div className="card"><img src={img}></img></div>
-                <div className="card"><img src={img}></img></div>
-                <div className="card"><img src={img}></img></div>
+                <div className="card"><img src={img} alt='img1'></img></div>
+                <div className="card"><img src={img} alt='img2'></img></div>
+                <div className="card"><img src={img} alt='img3'></img></div>
             </div>
         </div>
 

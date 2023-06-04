@@ -10,7 +10,7 @@
         height: 100vh;
         display: flex;
         flex-direction: row;
-        animation: slide 5s infinite;
+        animation: slide 25s infinite;
  }
 img{
     width: 100%;
