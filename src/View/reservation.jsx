@@ -1,74 +1,69 @@
-// import React from "react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min';
-// import "../css/Reservation.css";
-// import close from "../assets/icons/close.svg";
-// import BtnReservation from "../Controller/ReservationBtn";
+import React from "react";
+import "../css/Reservation.css";
+import BtnCloseReservation from "../Controller/ClosePopupBtn";
 
-// function Reservation() {
-//   return (
-//     <div className="container-bx-reservation">
-//       <div className="bx-reservation">
-//         <h3 className="Booking-text">Booking Reservation</h3>
-//         <div className="btn-icon-close">
-//           <img className="icon-close" src={close} alt="icon-close" />
-//         </div>
-//         <div className="row">
-//           <form id="contact-form" className="form-horizontal" role="form">
-//           <div className="row">
-//           <div className="form-group">
-//               <div className="col-sm">
-//                 <input
-//                   type="text"
-//                   className="form-control"
-//                   id="name"
-//                   placeholder="NAME"
-//                   name="name"
-//                   value=""
-//                   required
-//                 />
-//               </div>
-//             </div>
-//             <div className="form-group">
-//               <div className="col-sm">
-//                 <input
-//                   type="email"
-//                   className="form-control"
-//                   id="email"
-//                   placeholder="EMAIL"
-//                   name="email"
-//                   value=""
-//                   required
-//                 />
-//               </div>
-//             </div>
-//           </div>
-            
-//           </form>
-//         </div>
+function Reservation() {
+  return (
+    <div className="container-bx-reservation animate__fadeIn animate__duration-0.5s">
+      <div className="bx-reservation animate__animated animate__fadeInDown">
+        <h3 className="Booking-text animate__animated animate__fadeIn animate__delay-0.5s">BOOKING RESERVATION</h3>
+        <BtnCloseReservation />
+        <div className="heading-date animate__animated animate__fadeIn animate__delay-1s">
+          <div className="opening-hours">
+            <h4 className="heading">OPENING HOURS</h4>
+            <p className="day-text">MON - SUN</p>
+            <p className="time-text">9:00 am – 11:00 pm</p>
+          </div>
+          <div className="caffe-hours">
+            <h4 className="heading">CAFFE HOURS</h4>
+            <p className="day-text">MON - SUN</p>
+            <p className="time-text">8:00 am – 11:00 pm</p>
+          </div>
+        </div>
+        <form className="Input-Reservation animate__animated animate__fadeIn animate__delay-1s">
+          <div className="column-input">
+            <div className="row-input">
+              <div className="Input-Bx-Name">
+                <input type="text" required />
+                <span>Name</span>
+              </div>
+              <div className="Input-Bx-Email">
+                <input type="email" required />
+                <span>Email</span>
+              </div>
+              <div className="Input-Bx-Phone">
+                <input type="text" required />
+                <span>Phone Number</span>
+              </div>
+            </div>
+            <div className="row-input">
+              <div className="Input-Bx-Date">
+                <input type="date" required />
+                <span>Date</span>
+              </div>
+              <div className="Input-Bx-Time">
+                <input type="time" required />
+                <span>Time</span>
+              </div>
+              <div className="Input-Bx-Sheet">
+                <input type="number" required />
+                <span>Sheets</span>
+              </div>
+            </div>
+            <div className="row-input">
+              <div className="Input-Bx-Description">
+                <textarea required></textarea>
+                <span>Description</span>
+              </div>
+            </div>
+            <div className="row-input">
+              <button className="Submit-bx">SUBMIT NOW</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+}
 
-//         {/* <textarea
-//             className="form-control"
-//             rows="10"
-//             placeholder="MESSAGE"
-//             name="message"
-//             required
-//           ></textarea> */}
-
-//         {/* <button
-//             className="btn btn-primary send-button"
-//             id="submit"
-//             type="submit"
-//             value="SEND"
-//           >
-//             <div className="alt-send-button">
-//               <i className="fa fa-paper-plane"></i>
-//               <span className="send-text">SEND</span>
-//             </div>
-//           </button> */}
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Reservation;
+export default Reservation;

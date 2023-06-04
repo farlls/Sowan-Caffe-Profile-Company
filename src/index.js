@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'animate.css';
 import 'jquery';
 import 'popper.js';
 import React from 'react';
