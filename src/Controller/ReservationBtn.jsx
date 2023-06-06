@@ -8,15 +8,6 @@ function ReservationBtn() {
   const [isPopupOpen, setPopupOpen] = useState(false);
 
   const togglePopup = () => {
-    // const container = document.querySelector(".container-bx-reservation");
-    // const bxreservation = document.querySelector(".bx-reservation");
-
-    // if (container && bxreservation) {
-    //   container.classList.add("animate__animated", "animate__fadeIn");
-    //   bxreservation.classList.add("animate__animated", "animate__fadeIn");
-    //   bxreservation.style.setProperty("--animate-duration", "2s");
-    // }
-
     setPopupOpen(!isPopupOpen);
   };
 

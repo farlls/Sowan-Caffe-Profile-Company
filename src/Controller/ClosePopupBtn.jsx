@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import close from "../assets/icons/close.svg";
 import "../css/Reservation.css";
 const BtnCloseReservation = () => {

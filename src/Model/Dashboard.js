@@ -1,5 +1,4 @@
 import Navigation from "../View/navigation";
-import Reservation from "../View/reservation";
 import Page1 from "../View/page1";
 import Page2 from "../View/page2";
 // import Reservation from "../View/reservation";
@@ -10,7 +9,6 @@ function Dashboard() {
   return (
     <body>
       <Navigation />
-
       <Slider />
       <Page1 />
       <Page2 />
