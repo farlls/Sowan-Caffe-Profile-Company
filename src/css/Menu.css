@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+.container-page1{
+    height: 100vh;
+    width: 100%;
+    text-align: center ;
+    padding: 30px;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.container-title-menu{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    position: relative;
+}
+.container-title-menu h4, span{
+    color: #C59D5F;
+    font-family: lato;
+}
+.container-title-menu h3{
+    color: #252525;
+    font-family: lato;
+    font-weight: 800;
+}
+.container-title-menu p{
+    color: #777777;
+    font-family: lato;
+    font-weight: 500;
+    text-align: left;
+    padding: 0 70px;
+}
+.container-menu{
+    display: flex ;
+    z-index: 2;
+}
+.container-card-menu{
+    width: 70%;
+    display: flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+.card{
+    height: 300px;
+    width: 220px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.card img{
+    height: 60px;
+    width: 50px;
+}
+.card div:nth-child(1-2){
+    background-size: cover;
+    background-position:center;
+    height: 300px;
+    width: 197px;
+    position: relative;
+    
+}
+.itemBox img{
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.card .container-art-menu{
+    transform: translateY(75%);
+    position: absolute;
+    bottom: 0;
+    background: #2626263d;
+    height: 300px;
+    width: 220px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: all .6s;
+}
+.container-art-menu:hover {
+    transform: translateY(0%);
+    position: absolute;
+    height: 100%;
+}
+.container-art-menu h5{
+    margin-top: 26px;
+    font-family: lato;
+    font-weight: 600;
+   
+    
+}
+.container-art-menu p{
+    padding: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+.container-list-menu {
+    height: 120px;
+    width: 60%;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container-list-menu div{
+    background-color: #ececec;
+    padding: 4px 18px;
+    border-radius: 4px;
+}
+
+    .itemBox img{
+        transition: all 1s;
+    }
+    .itemBox img:hover {
+        transform: scale(1.2);
+    }
