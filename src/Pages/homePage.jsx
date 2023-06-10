@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "../View/slider";
-import Page1 from "../View/page1";
+import Page1 from "../View/menu";
+import About from "../View/about";
 import Navigation from "../View/navigation";
 
 function HomePage() {
@@ -8,6 +9,7 @@ function HomePage() {
     <div>
       <Navigation />
       <Slider />
+      <About />
       <Page1 />
     </div>
   );
