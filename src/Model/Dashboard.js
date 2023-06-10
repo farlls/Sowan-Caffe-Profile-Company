@@ -1,17 +1,17 @@
-import Navigation from "../View/navigation";
-import Reservation from "../View/reservation";
-import Page1 from "../View/page1";
+import ContactusPage from "../Pages/contactusPage";
+import HomePage from "../Pages/homePage";
 import React from "react";
-import Slider from "../View/slider";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function Dashboard() {
-  return (
-    <body>
-      <Navigation />
 
-      <Slider />
-      <Page1 />
-    </body>
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/contactus" element={<ContactusPage />} />
+      </Routes>
+    </Router>
   );
 }
 

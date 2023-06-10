@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Reservation from "../View/reservation";
 import "animate.css";
+import "../css/index.css";
 import "../css/Reservation.css";
 import "../css/Navigation.css";
 
@@ -8,24 +9,21 @@ function ReservationBtn() {
   const [isPopupOpen, setPopupOpen] = useState(false);
 
   const togglePopup = () => {
-    // const container = document.querySelector(".container-bx-reservation");
-    // const bxreservation = document.querySelector(".bx-reservation");
-
-    // if (container && bxreservation) {
-    //   container.classList.add("animate__animated", "animate__fadeIn");
-    //   bxreservation.classList.add("animate__animated", "animate__fadeIn");
-    //   bxreservation.style.setProperty("--animate-duration", "2s");
-    // }
-
     setPopupOpen(!isPopupOpen);
   };
 
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (isPopupOpen) {
+      body.classList.add("noScrolling");
+    }
+  }, [isPopupOpen]);
   return (
     <>
-     {isPopupOpen ? <Reservation /> : null}
-      <button className="reservation-btn" onClick={togglePopup}>
+      <button className="reservation-btn" onClick={() => togglePopup()}>
         RESERVATION
       </button>
+      {isPopupOpen && <Reservation />}
     </>
   );
 }
