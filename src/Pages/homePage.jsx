@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <div>
       <Navigation />
-      <Slider />
+      <Slider /> 
       <About />
       <Page1 />
     </div>
