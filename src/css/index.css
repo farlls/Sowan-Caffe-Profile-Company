@@ -9,7 +9,14 @@ body {
   background-color: #191919;
   overflow-x: hidden;
 }
-
+body.noScrolling{
+  overflow-y: hidden;
+  transition: all .50s ease;
+}
+body.scrolling{
+  overflow-y: visible;
+  transition: all .50s ease;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

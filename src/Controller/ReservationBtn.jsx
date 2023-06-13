@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Reservation from "../View/reservation";
 import "animate.css";
+import "../css/index.css";
 import "../css/Reservation.css";
 import "../css/Navigation.css";
 
@@ -11,12 +12,18 @@ function ReservationBtn() {
     setPopupOpen(!isPopupOpen);
   };
 
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (isPopupOpen) {
+      body.classList.add("noScrolling");
+    }
+  }, [isPopupOpen]);
   return (
     <>
-     {isPopupOpen ? <Reservation /> : null}
-      <button className="reservation-btn" onClick={togglePopup}>
+      <button className="reservation-btn" onClick={() => togglePopup()}>
         RESERVATION
       </button>
+      {isPopupOpen && <Reservation />}
     </>
   );
 }

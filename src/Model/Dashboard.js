@@ -1,18 +1,21 @@
-import Navigation from "../View/navigation";
-import Page1 from "../View/page1";
-import Page2 from "../View/page2";
-// import Reservation from "../View/reservation";
+import ContactusPage from "../Pages/contactusPage";
+import HomePage from "../Pages/homePage";
 import React from "react";
-import Slider from "../View/slider";
+import AboutUS from "../Pages/aboutusPage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function Dashboard() {
+
+
   return (
-    <body>
-      <Navigation />
-      <Slider />
-      <Page1 />
-      <Page2 />
-    </body>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/aboutus" element={<AboutUS />} />
+        <Route path="/contactus" element={<ContactusPage />} />
+      </Routes>
+    </Router>
+
   );
 }
 
