@@ -12,7 +12,7 @@ position: relative;
 .background1Page2{
     width: 100%;
     height: 70vh;
-    background-image: url(/src/assets/img/bg3.jpg);
+    background-image: url(/src/assets/img/bg3.png);
     background-size: cover;
     background-position: center ;
     position: relative;

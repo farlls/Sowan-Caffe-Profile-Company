@@ -1,32 +1,52 @@
-
 import "../css/Navigation.css";
 import "../css/Reservation.css";
 import logo from "../assets/img/Sowan Caffe Logo.svg";
-import React from "react";
+import React,{useEffect, useState} from "react";
 import BtnMenu from "../Controller/NavbarBtn.jsx";
-import ReservationBtn from '../Controller/ReservationBtn';
+import ReservationBtn from "../Controller/ReservationBtn";
+import { Link } from "react-router-dom";
 
 function Navigation() {
+  const [navbarClass, setNavbarClass] = useState("navigation transparent");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setNavbarClass("navigation solid");
+      } else {
+        setNavbarClass("navigation transparent");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="navigation">
+    <nav className={navbarClass}>
       <div className="container-logo">
         <img className="logo" alt="Logo Sowan Caffe" src={logo}></img>
       </div>
       <div className="container-navigation-menu">
         <ul className="navigation-menu">
           <li>
-            <a className="active" href="/home">
+            <Link to="/" className="active" href="#">
               HOME
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about">ABOUT US</a>
+            <Link to="/aboutus" href="#">ABOUT US</Link>
           </li>
           <li>
-            <a href="/menu">MENU</a>
+            <Link to="/menu" href="#">MENU</Link>
           </li>
           <li>
-            <a href="/contactus">CONTACT US</a>
+            <Link to="/contactus" href="#" >
+              CONTACT US
+            </Link>
           </li>
         </ul>
       </div>
