@@ -2,9 +2,7 @@
 import ContactusPage from "../Pages/contactusPage";
 import HomePage from "../Pages/homePage";
 import React from "react";
-
-import Slider from "../View/slider";
-import Page3 from "../View/page3";
+import AboutUS from "../Pages/aboutusPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // function Dashboard() {
@@ -24,6 +22,7 @@ function Dashboard() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/aboutus" element={<AboutUS />} />
         <Route path="/contactus" element={<ContactusPage />} />
       </Routes>
     </Router>
