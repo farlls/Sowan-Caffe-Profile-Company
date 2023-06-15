@@ -79,6 +79,10 @@ position: relative;
 .card2 img{
     height: 270px;
     width: 270px;
+    transition: all .4s ease-in-out;
+}
+.card2  img:hover{
+  transform: scale(1.1);
 }
 .row-2{
     display: flex;
@@ -150,6 +154,7 @@ position: relative;
     border-radius: 3px;
     object-fit: cover;
   }
+ 
   .carousel .card3 .text4 {
     font-family: 'Lato', sans-serif;
     color: #151515;
