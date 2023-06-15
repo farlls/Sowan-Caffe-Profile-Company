@@ -12,9 +12,9 @@ import Page2 from "../View/page2";
 function HomePage() {
   return (
     <div>
-      {/* <Navigation />
+      <Navigation />
       <Slider /> 
-      <About /> */}
+      <About />
       <Page1 />
       <Page2 />
       <Page3 />
