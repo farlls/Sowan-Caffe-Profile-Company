@@ -1,6 +1,6 @@
 import "../css/Navigation.css";
 import "../css/Reservation.css";
-import logo from "../assets/img/Sowan Caffe Logo.svg";
+import logoSecond from "../assets/icons/secondlogo.svg";
 import React,{useEffect, useState} from "react";
 import BtnMenu from "../Controller/NavbarBtn.jsx";
 import ReservationBtn from "../Controller/ReservationBtn";
@@ -28,7 +28,7 @@ function Navigation() {
   return (
     <nav className={navbarClass}>
       <div className="container-logo">
-        <img className="logo" alt="Logo Sowan Caffe" src={logo}></img>
+        <img className="logo" alt="Logo Sowan Caffe" src={logoSecond}></img>
       </div>
       <div className="container-navigation-menu">
         <ul className="navigation-menu">

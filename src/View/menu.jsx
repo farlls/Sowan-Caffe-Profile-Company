@@ -1,4 +1,5 @@
 import React from 'react';
+
 import '../css/Menu.css';
 // import img from '../assets/img/picture.png';
 import IconDinner from '../assets/icons/dinner.png';
@@ -16,13 +17,14 @@ import dessert2 from '../assets/img/dessert2.jpg';
 import dessert3 from '../assets/img/dessert3.jpg';
 import dessert4 from '../assets/img/dessert4.jpg';
 
-import {useEffect } from 'react';
+import {useEffect, useState } from 'react';
 import $ from 'jquery'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 function Page1() {
+
   useEffect(() => {
   
       $(".menu").click(function(){
@@ -50,7 +52,7 @@ function Page1() {
                 <span>read more...</span>
             </div>
             <div className="container-card-menu">
-                <div className="card" data-aos="fade-left">
+                <div className="card" data-aos="fade-left" >
                   <div class="itemBox dessert" alt="menu">
                   <img src={dessert1} alt="menu dessert" />
                   </div>
@@ -59,9 +61,10 @@ function Page1() {
                   </div>
                   <div className="container-art-menu">
                         <h5>Burger 1</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi corrupti eum nemo quam dolores vel, atque dignissimos nostrum quae! Eligendi</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum sunt beatae fugit? Ullam, placeat.</p>
                   </div>
                   </div>
+            
                 <div className="card"data-aos="fade-left">
                   <div class="itemBox dessert" alt="menu">
                   <img src={dessert2} alt="menu dessert" />

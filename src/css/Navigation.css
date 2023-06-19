@@ -26,7 +26,9 @@
   display: flex;
 }
 .logo{
-  height: 80px;
+  position: relative;
+  margin-left: 10px;
+  height: 30px;
   transform: all .50s ease;
 }
 .container-navigation-menu{

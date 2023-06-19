@@ -34,7 +34,7 @@ export default function Slider() {
   return (
     <div className="container-slider">
                 <div className="containerBackground">
-                    <div className="wrapper">
+                    <div className="wrapper-slider">
                     <div className="gambar"></div>
                     </div>
                 </div>
