@@ -11,7 +11,7 @@ function About() {
         AOS.refresh();
       }, []);
     return (
-    <div className="container-about">
+    <div className="container-about" >
         <img src={mainLogo} alt="" />
         <h2 data-aos="fade-left">About Me</h2>
         <p data-aos="fade-up">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis earum vitae voluptate possimus soluta laudantium minima quaerat obcaecati fugit architecto repudiandae sed qui quasi illum provident amet, saepe quibusdam itaque.</p>

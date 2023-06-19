@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
-*{
+.navigation{
   font-family: 'Cabin', sans-serif;
   letter-spacing: 2px;
-}
-.navigation{
   position: fixed;
   width: 100%;
   top: 0;
@@ -26,7 +24,9 @@
   display: flex;
 }
 .logo{
-  height: 80px;
+  position: relative;
+  margin-left: 10px;
+  height: 30px;
   transform: all .50s ease;
 }
 .container-navigation-menu{
