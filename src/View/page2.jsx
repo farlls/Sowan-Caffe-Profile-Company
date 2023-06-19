@@ -10,7 +10,7 @@ import G4 from '../assets/img/G4.jpg';
 import G5 from '../assets/img/G5.jpg';
 import FT1 from '../assets/img/FT1.jpg';
 import FT2 from '../assets/img/FT2.jpg';
-import FT3 from '../assets/img/FT3.JPG';
+import FT3 from '../assets/img/FT3.jpg';
 import FT4 from '../assets/img/FT4.jpg';
 import FT5 from '../assets/img/FT5.jpg';
 import FT6 from '../assets/img/FT6.jpg';

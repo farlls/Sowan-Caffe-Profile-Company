@@ -53,15 +53,15 @@ body{
            
         }
         10%{
-            background-image: url("/src/assets/img/bg2.png");
+            background-image: url("/src/assets/img/bg2.jpg");
             
         }
         20%{
-            background-image: url("/src/assets/img/bg3.png");  
+            background-image: url("/src/assets/img/bg3.jpg");  
            
         }
         30%{
-            background-image: url("/src/assets/img/bg4.png");
+            background-image: url("/src/assets/img/bg4.jpg");
            
         }
         40%{
@@ -69,15 +69,15 @@ body{
            
         }
         50%{
-            background-image: url("/src/assets/img/bg2.png"); 
+            background-image: url("/src/assets/img/bg2.jpg"); 
            
         }
         60%{
-            background-image: url("/src/assets/img/bg3.png"); 
+            background-image: url("/src/assets/img/bg3.jpg"); 
            
         }
         70%{
-            background-image: url("/src/assets/img/bg4.png"); 
+            background-image: url("/src/assets/img/bg4.jpg"); 
             
         }
         80%{
@@ -85,11 +85,11 @@ body{
             
         }
         90%{
-            background-image: url("/src/assets/img/bg2.png");
+            background-image: url("/src/assets/img/bg2.jpg");
            
         }
         100%{
-            background-image: url("/src/assets/img/bg3.png");
+            background-image: url("/src/assets/img/bg3.jpg");
             
         }
     
