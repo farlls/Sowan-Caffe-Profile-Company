@@ -3,6 +3,7 @@ import Slider from "../View/slider";
 import Page1 from "../View/menu";
 import About from "../View/about";
 import Navigation from "../View/navigation";
+import Footer from "../View/footer";
 
 function HomePage() {
   return (
@@ -11,6 +12,7 @@ function HomePage() {
       <Slider />
       <About />
       <Page1 />
+      <Footer />
     </div>
   );
 }

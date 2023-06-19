@@ -1,2 +1,229 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/lato');
+*{
+    font-family: 'Lato' sans-serif;
+    letter-spacing: 1px;
+}
+.container-footer-background{
+    overflow-x: hidden;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    background-image: linear-gradient(0deg, rgb(27, 36, 48) 0%, rgba(27, 36, 48, 0.788) 200%),url(../assets/img/footerbg.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* background-color: #191919; */
+    /* background-color: aliceblue; */
+    box-shadow: 0px -3px 27px -12px rgba(197,157,5,1);
+    bottom: 0;
+}
+.column-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.footer-menu{
+    width: 100%;
+    height: 272px;
+    display: flex;
+}
+.row-footer-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 40px 40px 40px 40px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.menu-one-footer {
+    width: 270px;
+    height: 272px;
+    display: flex;
+}
+.menu-one-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-logo{
+    align-self: flex-start;
+    height: 80px;
+}
+.desc-menu-one{
+text-align: left;
+ font-size: 11.5px;
+ color: #ffffff;
+ font-weight: 100;
+ letter-spacing: 2px;
+}
+.row-sosmed-icon{
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 40px;
+    gap: 20px;
+}
+.row-sosmed-icon .icon-sosmed svg{
+text-decoration: none;
+  height: 25px;
+  width: auto;
+  fill: #ffffff;
+  transition: all .50s ease;
+}
+.icon-sosmed svg:hover{
+    transform: translateY(-5px);
+    height: 28px;
+    fill: #C59D5F;
+    transition: all .50s ease;
+}
+
+.menu-two-footer{
+    display: flex;
+    height: 249px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+}
+.menu-two_column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.heading-menu{
+    margin: 0px 0 50px 0;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.content-menu-two{
+    display: flex;
+    width: 270px;
+    height: auto;
+    flex-direction: column;
+    margin: 15px 0 0 0;
+}
+.heading-content{
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.subheading-content{
+    font-size: 12px;
+    font-weight: 100;
+    color: #C59D5F;
+    text-transform: capitalize;
+}
+.menu-tree-footer{
+    display: flex;
+    width: 270px;
+    height: auto;
+    margin: 15px;
+}
+.menu-tree-column{
+    display: flex;
+    flex-direction: column; 
+    width: 270px;
+    height: auto;
+    
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+}
+.img-row-content-burger{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.img-row-content-coffe{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.heading-menu-tree{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.column-content{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 5px;
+    align-content: center;
+    justify-content: center;
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.icon-clock{
+    height: 16px;
+}
+.row-headingIcon{
+    display: flex;
+    gap: 5px;
+}
+.subheading-content-tree{
+    font-size: 12px;
+    font-weight: 100;
+    color: grey;
+    text-transform: capitalize;
+}
+.menu-four-footer{
+    width: 270px;
+    height: 214px;
+    display: flex;
+}
+.icon-four-footer{
+    height: 20px;
+}
+.column-four-footer{
+    width: 270px;
+    height: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 22px;
+    gap: 5px;
+}
+.text-four{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.Copyright{
+    color: #E3E3E3;
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 100;
+}
+.Copyright span{
+    color: #C59D5F;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.heading-menu-four{
+    margin: -30px 0 30px 0;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
