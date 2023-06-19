@@ -1,14 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import 'animate.css';
-import 'jquery';
-import 'popper.js';
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './css/index.css';
-import Dashboard from './Model/Dashboard.js';
+import "animate.css";
+import "react-icons/fa";
+import "jquery";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./css/index.css";
+import Dashboard from "./Model/Dashboard.js";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Dashboard />

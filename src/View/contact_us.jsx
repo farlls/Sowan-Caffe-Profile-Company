@@ -1,10 +1,17 @@
-import React from "react";
+import { useEffect } from "react";
+import React from 'react';
 import "../css/ContactUs.css";
 import IconPhone from '../assets/icons/Icon-Phone.svg';
 import IconAddress from '../assets/icons/Icon-Address.svg';
 import IconEmail from '../assets/icons/icon-email.svg';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function ContactUs() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="container-contactus">
       <header className="header">
@@ -14,7 +21,7 @@ function ContactUs() {
         </h4>
       </header>
       <section className="row-section">
-        <content className="column-ContactUS">
+        <content data-aos="fade-right" className="column-ContactUS">
           <span className="sub-heading-row">DROP US A LINE</span>
           <span className="heading-contactUS">Send Your Message</span>
           <form className="input-form">
@@ -51,7 +58,7 @@ function ContactUs() {
             </div>
           </form>
         </content>
-        <content className="column-detail">
+        <content data-aos="fade-left" className="column-detail">
           <div className="detail-phone">
             <div className="row-insert-detail">
               <img className="Icon-Phone" alt="Icon phone" src={IconPhone}></img>

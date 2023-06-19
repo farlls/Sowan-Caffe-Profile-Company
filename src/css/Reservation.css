@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Lato:wght@900&display=swap');
 
 *{
-  font-family: 'Cabin', sans-serif;
-  letter-spacing: 2px;
+  
   box-sizing: border-box;
 }
 .container-bx-reservation{
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
     position: fixed;
     z-index: 5;
     background-color: rgba(0, 0, 0, 0.884);

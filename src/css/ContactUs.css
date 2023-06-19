@@ -4,8 +4,10 @@
   margin: 0;
 }
 .container-contactus{
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 2px;
     width: 100%;
-    height: 130vh;
+    height: 160vh;
     display: flex;
     position: relative;
     flex-direction: column;
@@ -20,15 +22,17 @@
     text-align: center;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(190deg, rgba(27,36,48,0.46262254901960786) 0%, rgba(27,36,48,1) 100%), url(../assets/img/Banner.jpg);
-    background-size: contain ;
+    background-image: linear-gradient(183deg, rgba(27, 36, 48, 0.6) 0%, rgba(27,36,48,1) 100%), url(../assets/img/360Coffee.jpg);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    background-position: top;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 .heading-h1{
   color: #ffffff;
   font-size: 36px;
-  margin: 40px 0 0 0;
+  margin: 50px 0 0 0;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
 
@@ -51,8 +55,8 @@
   align-items: center;
   justify-content: center;
   margin: 50px 0 50px 0;
-  height: 100vh;
-  gap: 30px;
+  height: 100%;
+  gap: 60px;
 }
 .column-ContactUS{
   display: flex;
@@ -62,10 +66,10 @@
   background-color: #1B2430 ;
   border-radius: 5px;
   padding: 40px 0px 0px 40px;
-  border-radius: 10px;
-background: linear-gradient(315deg, #18202b, #1d2733);
-box-shadow:  -5px -5px 10px #171f29,
-             5px 5px 10px #1f2937;
+  border-radius: 5px;
+background: #1B2430;
+box-shadow:  5px 5px 10px #18202a,
+             -5px -5px 10px #1e2836;
 }
 .sub-heading-row{
   font-size: 16px;
@@ -79,7 +83,7 @@ box-shadow:  -5px -5px 10px #171f29,
 .input-form{
   display: flex;
   position: relative;
-  margin: 10px 0px;
+  margin: 30px 0px;
 }
 .column-input-contaUS{
   display: flex;
@@ -162,10 +166,10 @@ box-shadow:  -5px -5px 10px #171f29,
   width: 300px;
   height: 150px;
   background-color: #1B2430;
-  border-radius: 10px;
-  background: linear-gradient(315deg, #18202b, #1d2733);
-  box-shadow:  -5px -5px 10px #171f29,
-               5px 5px 10px #1f2937;
+  border-radius: 5px;
+  background: #1B2430;
+  box-shadow:  5px 5px 10px #18202a,
+               -5px -5px 10px #1e2836;
 }
 .detail-phone .column-detail-phone{
  display: flex;
@@ -179,19 +183,19 @@ box-shadow:  -5px -5px 10px #171f29,
   width: 300px;
   height: 150px;
   background-color: #1B2430;
-  border-radius: 10px;
-background: linear-gradient(315deg, #18202b, #1d2733);
-box-shadow:  -5px -5px 10px #171f29,
-             5px 5px 10px #1f2937;
+  border-radius: 5px;
+  background: #1B2430;
+  box-shadow:  5px 5px 10px #18202a,
+               -5px -5px 10px #1e2836;
 }
 .column-detail .detail-email{
   width: 300px;
   height: 150px;
   background-color: #1B2430;
-  border-radius: 10px;
-background: linear-gradient(315deg, #18202b, #1d2733);
-box-shadow:  -5px -5px 10px #171f29,
-             5px 5px 10px #1f2937;
+  border-radius: 5px;
+  background: #1B2430;
+  box-shadow:  5px 5px 10px #18202a,
+               -5px -5px 10px #1e2836;
 }
 .Input-Bx-Name-ContactUs input{
   padding: 10px;
