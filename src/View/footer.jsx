@@ -155,8 +155,8 @@ function Footer() {
               </div>
           </section>
           <h5 className="Copyright">
-            Copyrights © 2023 <span>Sowan Caffe.</span> Designed by{" "}
-            <span>sowancaffe</span>
+            Copyrights © 2023 <span>Sowan Caffe.</span> Designed by 
+            <span> sowancaffe</span>
           </h5>
         </div>
       </div>

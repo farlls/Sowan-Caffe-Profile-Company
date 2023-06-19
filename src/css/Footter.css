@@ -54,7 +54,7 @@
 text-align: left;
  font-size: 11.5px;
  color: #ffffff;
- font-weight: 100;
+ font-weight: 300;
  letter-spacing: 2px;
 }
 .row-sosmed-icon{
@@ -79,6 +79,7 @@ text-decoration: none;
 }
 
 .menu-two-footer{
+    margin-top: 20px;
     display: flex;
     height: 249px;
     width: 270px;
@@ -92,7 +93,6 @@ text-decoration: none;
     
 }
 .heading-menu{
-    margin: 0px 0 50px 0;
     display: flex;
     font-size: 16px;
     font-weight: 500;
@@ -104,7 +104,7 @@ text-decoration: none;
     width: 270px;
     height: auto;
     flex-direction: column;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
 }
 .heading-content{
     font-size: 14px;
@@ -114,26 +114,26 @@ text-decoration: none;
 }
 .subheading-content{
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 300;
     color: #C59D5F;
     text-transform: capitalize;
 }
 .menu-tree-footer{
     display: flex;
     width: 270px;
-    height: auto;
-    margin: 15px;
+    height: 249;
+    margin-top: 20px;
 }
 .menu-tree-column{
     display: flex;
     flex-direction: column; 
     width: 270px;
     height: auto;
-    
 }
 .row-content{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 .img-row-content-burger{
     width: 80px;
@@ -151,7 +151,7 @@ text-decoration: none;
     font-weight: 500;
     color: #ffffff;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 20px ;
 }
 .column-content{
     width: 200px;
@@ -177,7 +177,7 @@ text-decoration: none;
 }
 .subheading-content-tree{
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 300;
     color: grey;
     text-transform: capitalize;
 }
@@ -185,6 +185,7 @@ text-decoration: none;
     width: 270px;
     height: 214px;
     display: flex;
+    margin-top: 20px;
 }
 .icon-four-footer{
     height: 20px;
@@ -194,14 +195,13 @@ text-decoration: none;
     height: 214px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-top: 22px;
+    /* justify-content: center;
+    align-content: center; */
     gap: 5px;
 }
 .text-four{
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 14px;
     color: #FFFFFF;
 }
@@ -210,7 +210,7 @@ text-decoration: none;
     font-size: 14px;
     text-align: center;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
 }
 .Copyright span{
     color: #C59D5F;
@@ -220,7 +220,7 @@ text-decoration: none;
 }
 
 .heading-menu-four{
-    margin: -30px 0 30px 0;
+    margin-bottom: 20px;
     display: flex;
     font-size: 16px;
     font-weight: 500;
