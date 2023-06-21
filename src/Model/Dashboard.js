@@ -4,7 +4,7 @@ import HomePage from "../Pages/homePage";
 import React from "react";
 // import AboutUS from "../Pages/aboutusPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import AboutUs from "../View/aboutus";
+import AboutUs from "../Pages/aboutusPage";
 
 // function Dashboard() {
 //   return (
