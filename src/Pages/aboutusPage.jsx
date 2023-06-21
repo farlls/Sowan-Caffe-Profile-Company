@@ -1,14 +1,14 @@
 import React from "react";
-import AboutUs from "../View/aboutus";
-import Aboutus2 from "../View/aboutus2";
+import AboutUsComp from "../View/aboutus";
+import Aboutus2 from "../View/aboutUs2";
 import Navigation from "../View/navigation";
-function AboutUS(){
+function AboutUs(){
     return(
         <div>   
             <Navigation />
-            <AboutUs />
+            <AboutUsComp />
             <Aboutus2 />
         </div>
     );
 }
-export default AboutUS;
+export default AboutUs;
