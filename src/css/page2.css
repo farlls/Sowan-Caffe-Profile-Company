@@ -16,7 +16,7 @@
 .column-1-background1Page2{
     width: 100%;
     height: 70vh;
-    background-image: linear-gradient(190deg, rgba(27, 36, 48, 0.906) 0%, rgba(27, 36, 48, 0.916) 90%), url(../assets/img/bg3.png);
+    background-image: linear-gradient(190deg, rgba(27, 36, 48, 0.906) 0%, rgba(27, 36, 48, 0.916) 90%), url(../assets/img/bg3.jpg);
     background-size: cover;
     background-position: center ;
     display: flex;

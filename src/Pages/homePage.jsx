@@ -10,7 +10,7 @@ import Page2 from "../View/page2";
 
 function HomePage() {
   return (
-    <div>
+    <>
       <Navigation />
       <Slider /> 
       <About />
@@ -18,7 +18,7 @@ function HomePage() {
       <Page2 />
       <Page3 />
       <Footer />
-    </div>
+    </>
   );
 }
 export default HomePage;

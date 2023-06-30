@@ -23,7 +23,7 @@ function About() {
         para pecinta kopi dan pengunjung setia kami.
       </p>
 
-      <button>ABOUT US</button>
+      <button >ABOUT US</button>
     </div>
   );
 }

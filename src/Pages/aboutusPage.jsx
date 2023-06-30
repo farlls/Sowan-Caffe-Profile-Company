@@ -1,16 +1,17 @@
 import React from "react";
-import AboutUs from "../View/aboutus";
-import Aboutus2 from "../View/aboutus2";
+import AboutUsComp from "../View/aboutus";
 import Navigation from "../View/navigation";
 import Footer from "../View/footer";
-function AboutUS(){
+import Aboutus2 from "../View/aboutus2";
+
+function AboutUsPage(){
     return(
-        <div>   
+        <>   
             <Navigation />
-            <AboutUs />
+            <AboutUsComp />
             <Aboutus2 />
             <Footer />
-        </div>
+        </>
     );
 }
-export default AboutUS;
+export default AboutUsPage;
