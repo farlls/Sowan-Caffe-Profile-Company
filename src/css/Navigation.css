@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 .navigation{
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 2px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -23,7 +25,9 @@
   display: flex;
 }
 .logo{
-  height: 80px;
+  position: relative;
+  margin-left: 10px;
+  height: 30px;
   transform: all .50s ease;
 }
 .container-navigation-menu{
@@ -35,7 +39,7 @@
  display: flex; 
  list-style: none;
 }
- .navigation-menu a {
+ .navigation-menu a{
   font-family: 'Cabin', sans-serif;
   letter-spacing: 2px;
   font-size: 14px;
@@ -45,7 +49,7 @@
   margin: 0px 30px;
   transition: all .50s ease;
 }
-.navigation-menu a:hover{
+.navigation-menu :hover{
   color: #C59D5F;
 }
 .reservation-btn{
@@ -71,7 +75,7 @@
  color: #C59D5F;
   transform: all .50s ease-in; 
 }
-.navigation-menu a.active{
+a.active{
   color: #C59D5F;
 }
 .main{

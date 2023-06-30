@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+.column-container-page3{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    overflow: hidden;
+}
+.container-page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-page3-side2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+background-color: #D9D9D9;
+
+}
+.heading-side2{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+.heading-side2 h3{
+    margin-top: 30px;
+    color: #C59D5F;
+}
+.heading-side2 h2{
+    color: #000000;
+    font-family: Lato;
+    font-weight: bold;
+}
+.row1-page3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 120px;
+    /* margin: 40px 0 0 260px; */
+}
+
+.column1-page3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.column1-page3 img{
+    transform: scale(1);
+    transition: all .7s;
+}
+
+.column1-page3 img:hover{
+    transform: scale(1.3);
+}
+
+.column-page3-side2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-card{
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    position: relative;
+}
+
+.imgcard{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background: url(/src/assets/img/imgcard1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.imgcard2{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background: url(/src/assets/img/imgcard2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.imgcard3{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background: url(/src/assets/img/imgcard3.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.imgcard4{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background: url(/src/assets/img/imgcard4.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.dateart{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+   margin-left: 10px;
+   margin-top: 10px;
+   align-items: center;
+    
+}
+.dateart  img{
+   height: 15px;
+   width: 15px;
+
+}
+
+.container-card .dateart  #descTime{
+    font-size: 10px;
+    margin-left: 4px;
+    color: #989898;
+    font-family: lato;
+}
+.container-art-text{ 
+    height: 100%;position: relative;
+    width: 100%;
+    padding:0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.container-art-text h6{
+    font-family: lato;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.container-art-text p{
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 300;
+    color: #5c5c5c;
+    text-indent: 12px;
+    
+}
+.container-art-text p span {
+    color: #C59D5F;
+    font-size: 10px;
+    font-family: poppins;
+    font-weight: 300;
+
+}
+.cafe{
+    height : 60px;
+    width  : 60px;
+    
+}
+.food1{
+    height : 60px;
+    width  : 60px;
+}
+
+.Number{
+    font-size: 16px;
+    font-family: 'lato';
+    line-height: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.Number1{
+    font-size: 16px;
+    font-family: 'lato';
+    line-height: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.Branch{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.QT{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.Number span{
+    color: #C59D5F;
+    font-size: 16px;
+    font-weight: 700;
+}
+.Number1 span{
+    color: #C59D5F;
+    font-size: 16px;
+    font-weight: 700;
+}
+.background1-page3{
+    width: 100%;
+    height: 35vh;
+    background-image: linear-gradient(190deg, rgba(27, 36, 48, 0.906) 0%, rgba(27, 36, 48, 0.916) 100%), url(/src/assets/img/bg1page3.jpg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    z-index: 0;
+}
+
