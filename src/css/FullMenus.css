@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/lato');
+.container-FullMenus{
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 665vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #D9D9D9;
+    overflow-x: hidden;
+    z-index: 0;
+    transition: all 0.5s ease-in;
+}
+.header-FullMenus{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(183deg, rgba(27, 36, 48, 0.753) 0%, rgba(27,36,48,1) 100%), url(../assets/img/bg1page3.jpg);
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 50vh;
+}
+.heading-h1-menus{
+    color: #ffffff;
+    font-size: 36px;
+    margin: 50px 0 0 0;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+  
+  }
+  .sub-heading-menus{
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+  }
+  .sub-heading-menus .span-FullMenus{
+    font-family: 'Lato', sans-serif;
+    color: #C59D5F;
+    font-size: 16px;
+  }
+  .section-menus{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 600vh;
+    transition: all 0.5s ease-in;
+    /* padding: 50px 0 30px 0; */
+    gap: 20px;
+  }
+  .section-menu-content{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 150vh;
+    gap: 20px;
+    align-items: start;
+    transition: all 0.5s ease-in;
+  }
+  .card-img-aboutus-burger{
+    display: flex;
+    height: 100%;
+    width: 35%;
+    background-image: linear-gradient(183deg, rgba(27, 36, 48, 0.603) 0%, rgba(27,36,48,1) 100%), url(../assets/img/burger-menus.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+  .card-img-aboutus-coffee{
+    display: flex;
+    height: 100%;
+    width: 35%;
+    background-image: linear-gradient(183deg, rgba(27, 36, 48, 0.603) 0%, rgba(27,36,48,1) 100%), url(../assets/img/coffee-menus.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+  .card-img-aboutus-MainCourse{
+    display: flex;
+    height: 100%;
+    width: 35%;
+    background-image: linear-gradient(183deg, rgba(27, 36, 48, 0.603) 0%, rgba(27,36,48,1) 100%), url(../assets/img/mainCourse-menus.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+  .card-img-aboutus-desert{
+    display: flex;
+    height: 100%;
+    width: 35%;
+    background-image: linear-gradient(183deg, rgba(27, 36, 48, 0.603) 0%, rgba(27,36,48,1) 100%), url(../assets/img/Dessert-menus.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+.container-detail-menu{
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    background: #D9D9D9;
+box-shadow:  5px 5px 10px #d0d0d0,
+             -5px -5px 10px #e2e2e2;
+             transition: all 0.5s ease-in;
+}
+.column-detail{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+.heading-detail-menu{
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+.container-detail-menus{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+.row-detail-menus{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+}
+.image-menus{
+    display: flex;
+    width: 25%;
+    height: 100%;
+}
+.image-menus img {
+    height: 220px;
+    width: 170px;
+    border-radius: 5px;
+}
+.column-menus{
+    display: flex;
+    padding: 0 20px 0 20px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.column-menus h4{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+.column-menus p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-family: 'Lato';
+}
