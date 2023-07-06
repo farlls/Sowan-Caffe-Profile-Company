@@ -2,7 +2,7 @@ import React from "react";
 import AboutUsComp from "../View/aboutus";
 import Navigation from "../View/navigation";
 import Footer from "../View/footer";
-import Aboutus2 from "../View/aboutus2";
+import Aboutus2 from "../View/aboutuspage2";
 
 function AboutUsPage(){
     return(
