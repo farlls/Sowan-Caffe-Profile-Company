@@ -1,16 +1,26 @@
 # Getting Started with Sowan-Caffe
 
+## Our Teams
+
+|    NIM     |             Nama              |
+| :--------: | :---------------------------: |
+| 21.11.4330 |    Muhammad Andika Nugroho    |
+| 21.11.4364 | Farrel Shahizidan Ardantianto |
+| 21.11.4371 |      Michael Mardiansyah      |
+| 21.11.4372 |      Tifani Dea Shafira       |
+| 21.11.4383 |        Fajar Kurniawan        |
+| 21.11.4394 |     Fauzi Ilham Darmawan      |
+| 21.11.4399 | Nadhira Aurell Puspitaningrum |
+
+## Installation
+
+- Import file database sowan-caffe pada folder database ke dalam mySql.
+- Jalankan `npm install` untuk menginstall seluruh pkg dari project Sowan-Caffe.
+- Jalankan `npm run sowan` untuk menjalankan react serta express.
+
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
