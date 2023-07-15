@@ -20,7 +20,7 @@ function Page1() {
 
   const fetchMenuData = () => {
     axios
-      .get(`http://localhost:3001/menu/${selectedMenu}`)
+      .get(`https://sowan-coffe-server.vercel.app/menu/${selectedMenu}`)
       .then((response) => {
         setMenuData(response.data);
       })

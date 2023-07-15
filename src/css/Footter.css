@@ -133,10 +133,12 @@ text-decoration: none;
     gap: 10px;
 }
 .img-row-content-burger{
+    display: flex;
     width: 80px;
     height: 80px;
     border-radius: 5px;
 }
+
 .img-row-content-coffe{
     width: 80px;
     height: 80px;

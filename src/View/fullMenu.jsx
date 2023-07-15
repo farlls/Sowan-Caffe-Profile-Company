@@ -9,7 +9,7 @@ function FullMenus() {
   const [menuDessert, setMenuDessert] = useState([]);
   const fetchMenuData = () => {
     axios
-      .get(`http://localhost:3001/menu/Burger`)
+      .get(`https://sowan-coffe-server.vercel.app/menu/Burger`)
       .then((response) => {
         setMenuBurger(response.data);
       })
@@ -17,7 +17,7 @@ function FullMenus() {
         console.error("Terjadi kesalahan dalam permintaan API: ", error);
       });
     axios
-      .get(`http://localhost:3001/menu/Coffee`)
+      .get(`https://sowan-coffe-server.vercel.app/menu/Coffee`)
       .then((response) => {
         setMenuCoffee(response.data);
       })
@@ -25,7 +25,7 @@ function FullMenus() {
         console.error("Terjadi kesalahan dalam permintaan API: ", error);
       });
     axios
-      .get(`http://localhost:3001/menu/Main Course`)
+      .get(`https://sowan-coffe-server.vercel.app/menu/Main Course`)
       .then((response) => {
         setMenuMainCourse(response.data);
       })
@@ -33,7 +33,7 @@ function FullMenus() {
         console.error("Terjadi kesalahan dalam permintaan API: ", error);
       });
     axios
-      .get(`http://localhost:3001/menu/Dessert`)
+      .get(`https://sowan-coffe-server.vercel.app/menu/Dessert`)
       .then((response) => {
         setMenuDessert(response.data);
       })

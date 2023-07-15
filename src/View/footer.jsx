@@ -79,12 +79,14 @@ function Footer() {
                       src={burgerChese}
                       alt="img-burgerchese"
                     ></img>
+                    
                     <div className="column-content">
                       <h4 className="heading-content">
                         Irresistible and Delicious Cheeseburger Recipe - Your
                         Ultimate Guide
                       </h4>
                       <div className="row-headingIcon">
+                      
                         <img
                           className="icon-clock"
                           src={iconclock}

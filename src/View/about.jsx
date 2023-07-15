@@ -4,6 +4,7 @@ import mainLogo from "../assets/icons/mainlogo.svg";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function About() {
   useEffect(() => {
@@ -23,7 +24,9 @@ function About() {
         para pecinta kopi dan pengunjung setia kami.
       </p>
 
-      <button >ABOUT US</button>
+      <button>
+        <Link to="/aboutus" className="buttonAbout">ABOUT US</Link>
+      </button>
     </div>
   );
 }

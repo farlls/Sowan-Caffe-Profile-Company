@@ -70,7 +70,7 @@ db.connect((error) => {
 });
 
 // Menggunakan build dari proyek React sebagai sumber statis
-app.use(express.static("build"));
+// app.use(express.static("build"));
 
 // Menjalankan server
 app.listen(port, () => {
