@@ -3,8 +3,12 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #191919;
   overflow-x: hidden;
+  /* background: url(../assets/img/backgroundpattren.svg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  background-color: #D9D9D9;
 }
 body.noScrolling{
   overflow-y: hidden;

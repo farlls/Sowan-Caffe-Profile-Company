@@ -4,15 +4,15 @@
     width: 100%;
     text-align: center ;
     padding: 30px;
-    background-image: url(../assets/img/backgroundpattren.svg);
+    /* background-image: url(../assets/img/backgroundpattren.svg);
     background-repeat: no-repeat;
     background-size: 18in;
-    background-position: center;
+    background-position: center; */
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 0px -3px 27px -12px rgba(197,157,5,1);
+    /* box-shadow: 0px -3px 27px -12px rgba(197,157,5,1); */
 }
 .container-title-menu{
     color: white;

@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 .column-1-background1Page2{
     width: 100%;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 .container-title-page2{
     width: 95%;
@@ -89,10 +91,6 @@
     align-items: center;
     width: 100%;
     height: 90vh;
-    background-image: url(../assets/img/backgroundpattren.svg);
-    background-repeat: no-repeat;
-    background-size: 20in;
-    background-position: center;
 }
 /* Page 2 bawah */
 .text5{
@@ -185,4 +183,12 @@
     .wrapper .carousel {
       grid-auto-columns: 100%;
     }
+  }
+  .bg-latte-coffee{
+    z-index: 0; 
+    position: absolute;
+    width: 600px;
+    margin: -20% 90% 0 0;
+    opacity: 0.3;
+    transform: rotate(-30deg);
   }

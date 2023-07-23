@@ -132,16 +132,21 @@ text-decoration: none;
     flex-direction: row;
     gap: 10px;
 }
-.img-row-content-burger{
-    display: flex;
+.img-row-content{
     width: 80px;
     height: 80px;
+}
+.img-row-content-burger{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 5px;
 }
 
 .img-row-content-coffe{
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 5px;
 }
 .heading-menu-tree{

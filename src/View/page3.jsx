@@ -8,6 +8,7 @@ import award from "../assets/icons/awwardwin.svg";
 import qualified from "../assets/icons/qualifiedstaff.svg";
 import branch from "../assets/icons/branch.svg";
 import happycust from "../assets/icons/happycust.svg";
+import bgspageti from "../assets/img/bg-spaghetti.png";
 // import "./page3.css";
 
 export const Selection = () => {};
@@ -60,6 +61,11 @@ function Page3() {
       </div>
       {/* container page 2  */}
       <div className="container-page3-side2">
+        <img
+          className="bg-spagetti"
+          alt="bg-spagetti"
+          src={bgspageti}
+        ></img>
         <div className="heading-side2">
           <h3>BLOG</h3>
           <h2>Latest News</h2>
@@ -126,22 +132,6 @@ function Page3() {
             </div>
           </div>
         </div>
-        {/* BAGIAN FOOTER
-        return(
-          <div className="selection">
-            <div className="footer-site-footer-wrapper">
-              <div className="footer-site-footer" style={{backgroundImage: "url(footer-site-footer.svg"}}>
-                <div className="div-row">
-                  <div className="div-footer-middle">
-                    <div className="section-media-image">
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        ) */}
       </div>
     </div>
   );

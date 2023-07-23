@@ -15,6 +15,7 @@ import FT4 from "../assets/img/FT4.jpg";
 import FT5 from "../assets/img/FT5.jpg";
 import FT6 from "../assets/img/FT6.jpg";
 import FT7 from "../assets/img/FT7.jpg";
+import lattecoffee from "../assets/img/bg-latteart.png";
 import AOS from "aos";
 
 function Page2() {
@@ -55,6 +56,7 @@ function Page2() {
           </div>
         </div>
         <div className="column-2-background1Page2">
+        <img className="bg-latte-coffee" alt="bg-latte-coffee" src={lattecoffee}></img>
           <h3 data-aos="zoom-in" className="text5">
             Our Team
           </h3>

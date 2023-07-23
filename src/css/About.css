@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 .container-about{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     position: relative;
     text-align: center;
@@ -10,14 +10,26 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
-    background-image: url(../assets/img/backgroundpattren.svg);
+    /* background-image: url('../assets/img/bg-burger.png');
     background-repeat: no-repeat;
-    background-size: 20in;
-    background-position: center;
-    
+    background-size: 30%; */
+    margin: 0; 
 }
-
-.container-about img{
+.bg-burger-aboutus{
+    position: absolute;
+    height: 400px;
+    margin: 0 68% 28% 0 ;
+    opacity: 0.3;
+    transform: rotate(-20deg);
+}
+.bg-burger-aboutus-two{
+    position: absolute;
+    height: 500px;
+    margin: 40% 0 0 70%;
+    opacity: 0.3;
+    transform: rotate(20deg);
+}
+.container-about .logo-sowan{
     height: 135px;
 }
 .container-about h2{
@@ -29,7 +41,6 @@
     font-size: 16px;
     font-family: lato;
     width: 60%;
-    
 }
 .container-about button{
     width: 180px;
@@ -46,6 +57,8 @@
     font-size: 13px;
     color: #ffffff;
     transition: all 0.5s;
+    width: 180px;
+    height: 50px;
 }
 .container-about button:hover{
     background-color: #997a4a;

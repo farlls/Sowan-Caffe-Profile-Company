@@ -74,12 +74,13 @@ function Footer() {
                 <div className="menu-tree-column">
                   <h3 className="heading-menu-tree">Popular Posts</h3>
                   <div className="row-content">
+                  <div className="img-row-content">
                     <img
                       className="img-row-content-burger"
                       src={burgerChese}
                       alt="img-burgerchese"
                     ></img>
-                    
+                    </div>
                     <div className="column-content">
                       <h4 className="heading-content">
                         Irresistible and Delicious Cheeseburger Recipe - Your
@@ -99,11 +100,14 @@ function Footer() {
                     </div>
                   </div>
                   <div className="row-content">
-                    <img
+                  <div className="img-row-content">
+                  <img
                       className="img-row-content-coffe"
                       alt="img-coffee"
                       src={coffee}
                     ></img>
+                  </div>
+                    
                     <div className="column-content">
                       <h4 className="heading-content">
                         Mastering the Art of Latte: Unleashing Your Creativity

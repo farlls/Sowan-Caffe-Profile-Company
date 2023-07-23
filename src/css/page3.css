@@ -19,11 +19,15 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(../assets/img/backgroundpattren.svg);
-    background-repeat: no-repeat;
-    background-size: 20in;
-    background-position: center;
 
+}
+.bg-spagetti{
+    z-index: 0; 
+    position: absolute;
+    width: 600px;
+    margin: -12% 0 0 74%;
+    opacity: 0.4;
+    transform: rotate(-30deg);
 }
 .heading-side2{
     width: 100%;
@@ -44,6 +48,7 @@
     flex-direction: row;
     position: absolute;
     gap: 120px;
+    z-index: 2;
     /* margin: 40px 0 0 260px; */
 }
 
@@ -225,10 +230,11 @@
 .background1-page3{
     width: 100%;
     height: 35vh;
+
     background-image: linear-gradient(190deg, rgba(27, 36, 48, 0.906) 0%, rgba(27, 36, 48, 0.916) 100%), url(/src/assets/img/bg1page3.jpg);
     background-size: cover;
     background-position: center ;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
